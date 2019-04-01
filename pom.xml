@@ -79,26 +79,24 @@
       <version>3.0.1</version>
       <scope>provided</scope>
     </dependency>
-  <!--  <dependency>
-     &lt;!&ndash; <groupId>junit</groupId>
+  <dependency>
+     <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.12</version>
-      <scope>test</scope>&ndash;&gt;
-    </dependency>-->
+    </dependency>
  <!--   Spring-test-->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-test</artifactId>
       <version>4.3.7.RELEASE</version>
-     <!-- <scope>test</scope>-->
     </dependency>
 
-    <dependency>
+   <!-- <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
-      <!--<scope>test</scope>-->
-    </dependency>
+      &lt;!&ndash;<scope>test</scope>&ndash;&gt;
+    </dependency>-->
     <!--mybatis genreator core逆向工程用的包-->
     <dependency>
       <groupId>org.mybatis.generator</groupId>
